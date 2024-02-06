@@ -1,0 +1,89 @@
+# use glob syntax.
+syntax: glob
+*.ser
+*.class
+*~
+*.bak
+#*.off
+*.old
+
+# eclipse conf file
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
+.scalastyle
+
+# idea
+.idea
+*.iml
+logs
+
+# vs code
+.vscode
+
+# building
+target
+build
+null
+tmp*
+temp*
+dist
+test-output
+build.log
+
+# other scm
+.svn
+.CVS
+.hg*
+
+# switch to regexp syntax.
+#  syntax: regexp
+#  ^\.pc/
+
+.cache*
+dependency-reduced-pom.xml
+
+_testOutput
+_tradeOutput
+_tradeData
+_countryMT
+_currencyMT
+_productMT
+_nestedStructs
+myTestCheckpoints
+
+**/main/resources/application.properties
+**/main/resources/application.conf
+**/main/resources/application.yaml
+**/main/resources/application.yml
+**/main/resources/kafka.properties
+*.config
+*.keytab
+.DS_Store
+
+node_modules/
+Component-preload.js
+
+# Jekyll auto
+_site
+.sass-cache
+.jekyll-metadata
+
+utils/resources/*.conf
+/restcontroller/application.properties
+
+application.conf
+/aul-ui/src/main/web/node/
+
+.terraform/*
+.terraform.*
+/terraform/aul-service/.terraform
+
+/database/src/test/resources/database.properties
+/.bloop/
+/.idea/
+/.metals/
+/.mvn/
+/.vscode/
