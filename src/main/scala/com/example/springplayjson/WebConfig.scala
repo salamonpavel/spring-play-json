@@ -15,8 +15,7 @@ class WebConfig extends WebMvcConfigurer {
     converters.removeIf(converter => converter.isInstanceOf[MappingJackson2HttpMessageConverter])
     // add custom converters
     converters.add(new CirceHttpMessageConverter[CUser])
-    converters.add(new PlayJsonHttpMessageConverter[PUser]())
+    converters.add(new PlayJsonHttpMessageConverter[PUser])
   }
 
-  
 }
